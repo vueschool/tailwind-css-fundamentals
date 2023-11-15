@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import AppCard from "@/components/AppCard.vue";
+</script>
 <template>
-  <h1 class="text-3xl font-bold underline">Hello world!</h1>
+  <div class="m-10">
+    <AppCard />
+  </div>
 </template>
