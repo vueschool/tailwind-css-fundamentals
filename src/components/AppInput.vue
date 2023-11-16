@@ -18,12 +18,17 @@ const _modelValue = computed({
 </script>
 <template>
   <label class="block mb-3">
-    <span v-if="label" class="block text-2xl text-gray-800">{{ label }}</span>
+    <span
+      v-if="label"
+      class="after:content-['*'] after:text-red-500 block text-2xl text-gray-800"
+      >{{ label }}</span
+    >
     <input
       v-model="_modelValue"
+      placeholder="danielkelly_io"
       type="text"
       required="true"
-      class="block w-full p-3 border border-gray-400 rounded-lg focus:outline-lime-600 disabled:opacity-50 invalid:border-red-600"
+      class="block w-full p-3 border border-gray-400 rounded-lg placeholder:italic placeholder:text-sm disabled:opacity-50"
     />
   </label>
 </template>
