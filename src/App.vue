@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import Flexbox from "./components/Flexbox.vue";
+import Grid from "./components/Grid.vue";
 </script>
 <template>
   <div class="m-10">
-    <Flexbox />
+    <Grid />
   </div>
 </template>
