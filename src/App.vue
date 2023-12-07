@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import Fonts from "./components/Fonts.vue";
+import Prose from "./components/Prose.vue";
 </script>
 <template>
   <div class="m-10">
-    <Fonts />
+    <Prose />
   </div>
 </template>
