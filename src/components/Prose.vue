@@ -1,5 +1,8 @@
 <template>
-  <div>
+  <!-- This content is from the Daisy UI Website  -->
+  <!-- Which is an unofficial plugin  -->
+  <!-- https://daisyui.com/docs/layout-and-typography/ -->
+  <div class="prose prose-xl dark:prose-invert">
     <h1 id="heading-1">Heading 1</h1>
     <h2 id="heading-2">Heading 2</h2>
     <h3 id="heading-3">Heading 3</h3>
@@ -102,12 +105,6 @@
     </blockquote>
     <p>
       It’s probably important that images look okay here by default as well:
-    </p>
-    <p>
-      <img
-        src="/images/stock/photo-1560717789-0ac7c58ac90a.jpg"
-        alt="Daisy flowers"
-      />
     </p>
     <p>
       Now I’m going to show you an example of an unordered list to make sure

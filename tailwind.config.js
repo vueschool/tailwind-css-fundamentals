@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 import colors from "tailwindcss/colors";
+import typographyPlugin from "@tailwindcss/typography";
 
 /* eslint-env node */
 module.exports = {
@@ -81,7 +82,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [typographyPlugin],
   important: true,
   // darkMode: "class",
 };
