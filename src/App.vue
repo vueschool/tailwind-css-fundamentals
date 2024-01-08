@@ -2,7 +2,7 @@
 import PricingCard from "./components/PricingCard.vue";
 </script>
 <template>
-  <div>
+  <div class="grid max-w-6xl gap-6 p-4 mx-auto md:grid-cols-2 lg:grid-cols-3">
     <PricingCard
       :price="29"
       :features="[
