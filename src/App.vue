@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import PricingCard from "./components/PricingCardComplete.vue";
+import PricingCard from "./components/PricingCard.vue";
 </script>
 <template>
   <div>
