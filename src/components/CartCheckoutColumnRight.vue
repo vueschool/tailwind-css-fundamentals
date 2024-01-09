@@ -19,6 +19,7 @@ import CartCheckoutHamburger from "./CartCheckoutHamburger.vue";
     <!-- Cards -->
     <div class="flex items-center gap-4 mb-4">
       <CartCheckoutCCIcon
+        active
         class="text-[#EA7C67] text-5xl opacity-100"
         icon="bxl:visa"
       />
