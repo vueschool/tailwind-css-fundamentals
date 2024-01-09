@@ -2,7 +2,7 @@
 import { Icon } from "@iconify/vue";
 defineProps<{
   icon: string;
-  active: boolean;
+  active?: boolean;
 }>();
 </script>
 <template>
